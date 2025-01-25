@@ -34,7 +34,7 @@ This code is particularly useful in medical image analysis for automated detecti
 ## Installation
 
 1. Clone the repository:
-```bash
+bash
 git clone https://github.com/yourusername/RetinalCNN.git
 
 Create and activate a virtual environment:
@@ -56,5 +56,24 @@ RetinalCNN/
 Run the training script:
 python main.py
 
+The training process will:
+Train for 100 epochs
+Save visualization results in train_change/ directory
+Display training progress and loss values
+Output
+The model generates:
 
+Original images
+Ground truth masks
+Generated vessel segmentation masks
+Overlay visualizations
+Results are saved every 2 epochs in the train_change/ directory.
+
+Model Architecture
+Input: 256x256 grayscale retinal images
+Output: Binary vessel segmentation masks
+Architecture: Custom CNN with left and right convolutional layers
+Loss: Mean Squared Error (MSE)
+Optimizer: Adam with learning rate 0.0001
+License
 
