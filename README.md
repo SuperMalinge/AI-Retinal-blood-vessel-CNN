@@ -25,3 +25,36 @@ Generated vessel masks
 Overlay visualizations of vessels on original images
 
 This code is particularly useful in medical image analysis for automated detection of retinal vasculature, which can help in early diagnosis of conditions like diabetic retinopathy.
+
+## Prerequisites
+
+- Python 3.7+
+- CUDA-compatible GPU (recommended)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/RetinalCNN.git
+
+Create and activate a virtual environment:
+python -m venv venv
+
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate  # Windows
+
+pip install tensorflow numpy scikit-learn matplotlib scikit-image
+
+RetinalCNN/
+├── DRIVE/
+│   └── training/
+│       ├── images/
+│       │   └── *.tif
+│       └── 1st_manual/
+│           └── *.tif
+
+Run the training script:
+python main.py
+
+
+
