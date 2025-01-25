@@ -34,7 +34,7 @@ This code is particularly useful in medical image analysis for automated detecti
 ## Installation
 
 1. Clone the repository:
-bash
+```bash
 git clone https://github.com/yourusername/RetinalCNN.git
 
 Create and activate a virtual environment:
@@ -56,6 +56,7 @@ RetinalCNN/
 Run the training script:
 python main.py
 
+```
 The training process will:
 Train for 100 epochs
 Save visualization results in train_change/ directory
