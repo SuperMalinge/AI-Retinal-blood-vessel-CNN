@@ -1,42 +1,62 @@
 # AI-Retinal-blood-vessel-CNN
+
 This code implements a Convolutional Neural Network (CNN) for retinal blood vessel segmentation in medical images. Here are the key aspects:
 
 <img src="retinal2.png" width="600" alt="GUI Preview">
 
-Purpose: It processes retinal fundus images to automatically detect and segment blood vessels, which is valuable for diagnosing various eye conditions.
+**Purpose**: It processes retinal fundus images to automatically detect and segment blood vessels, which is valuable for diagnosing various eye conditions.
 
-Update 29.01.2025:
--Full GUI integration with the RetinalCNN model 
--Real-time training progress updates 
--Parameter control through the interface 
--Proper data loading and preprocessing 
--Model architecture setup 
--Training visualization capabilities 
--Error handling and user feedback 
+**Update 29.01.2025:**
 
+- Full GUI integration with the RetinalCNN model
 
-Main components:
+- Real-time training progress updates
 
--Custom CNN architecture with left (ConLayerLeft) and right (ConLayerRight) convolutional layers
--Training pipeline using the DRIVE dataset (Digital Retinal Images for Vessel Extraction)
--Image preprocessing and normalization
--Visualization of results including original images, ground truth masks, and generated segmentation masks
+- Parameter control through the interface
 
-Training process:
--Uses 128 training images of size 256x256 pixels
--Runs for 100 epochs with a batch size of 2
--Implements gradient-based optimization using Adam optimizer
--Saves progress visualizations in the 'train_change' directory
+- Proper data loading and preprocessing
 
-Output:
--Generates vessel segmentation masks
--Creates comparison visualizations showing:
--Original retinal images
--Ground truth vessel masks
--Generated vessel masks
--Overlay visualizations of vessels on original images
+- Model architecture setup
 
--This code is particularly useful in medical image analysis for automated detection of retinal vasculature, which can help in early diagnosis of conditions like diabetic retinopathy.
+- Training visualization capabilities
+
+- Error handling and user feedback
+
+**Main components:**
+
+- Custom CNN architecture with left (ConLayerLeft) and right (ConLayerRight) convolutional layers
+
+- Training pipeline using the DRIVE dataset (Digital Retinal Images for Vessel Extraction)
+
+- Image preprocessing and normalization
+
+- Visualization of results including original images, ground truth masks, and generated segmentation masks
+
+**Training process:**
+
+- Uses 128 training images of size 256x256 pixels
+
+- Runs for 100 epochs with a batch size of 2
+
+- Implements gradient-based optimization using Adam optimizer
+
+- Saves progress visualizations in the 'train_change' directory
+
+**Output:**
+
+- Generates vessel segmentation masks
+
+- Creates comparison visualizations showing:
+
+  - Original retinal images
+
+  - Ground truth vessel masks
+
+  - Generated vessel masks
+
+  - Overlay visualizations of vessels on original images
+
+This code is particularly useful in medical image analysis for automated detection of retinal vasculature, which can help in early diagnosis of conditions like diabetic retinopathy.
 
 ## Prerequisites
 
