@@ -6,13 +6,13 @@ This code implements a Convolutional Neural Network (CNN) for retinal blood vess
 Purpose: It processes retinal fundus images to automatically detect and segment blood vessels, which is valuable for diagnosing various eye conditions.
 
 Update 29.01.2025:
-*Full GUI integration with the RetinalCNN model
-*Real-time training progress updates
-*Parameter control through the interface
-*Proper data loading and preprocessing
-*Model architecture setup
-*Training visualization capabilities
-*Error handling and user feedback
+*Full GUI integration with the RetinalCNN model 
+*Real-time training progress updates 
+*Parameter control through the interface 
+*Proper data loading and preprocessing 
+*Model architecture setup 
+*Training visualization capabilities 
+*Error handling and user feedback 
 
 
 Main components:
