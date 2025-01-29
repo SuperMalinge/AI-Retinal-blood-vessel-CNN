@@ -1,6 +1,8 @@
 # AI-Retinal-blood-vessel-CNN
 This code implements a Convolutional Neural Network (CNN) for retinal blood vessel segmentation in medical images. Here are the key aspects:
 
+<img src="retinal2.png" width="600" alt="GUI Preview">
+
 Purpose: It processes retinal fundus images to automatically detect and segment blood vessels, which is valuable for diagnosing various eye conditions.
 
 Update 29.01.2025:
